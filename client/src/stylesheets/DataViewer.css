@@ -1,0 +1,23 @@
+.dataViewer {
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
+.queryDataForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	padding-bottom: 1rem;
+}
+
+.viewerInputButtons {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
