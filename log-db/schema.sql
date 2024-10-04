@@ -1,0 +1,6 @@
+CREATE TABLE bequest_log(
+	id SERIAL PRIMARY KEY,
+	user_id INTEGER NOT NULL,
+	table_name VARCHAR(30) NOT NULL,
+	log_entry VARCHAR(350) NOT NULL
+);
